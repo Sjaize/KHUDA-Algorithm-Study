@@ -1,39 +1,56 @@
-R, S = map(int, input().split())
+"""
+반례 공유
 
-p = []
-for _ in range(R):
-    p.append(list(input()))
+입력
+6 3
+..X
+...
+#..
+#..
+#..
+###
 
-gap = R-1
-uuidx = 0
-for x in range(S):
-    uidx = -1
-    didx = R-1
-    for y in range(R-2, -1, -1):
-        if(p[y][x] == 'X'):
-            uidx = y
+출력
+...
+...
+#..
+#..
+#.X
+###
+
+"""
+
+import sys
+input = sys.stdin.readline
+
+r, s = map(int, input().split())
+
+m = [list(input().rstrip()) for _ in range(r)]
+
+gap = r
+bottom = -1
+star_bottoms = [-1] * s
+
+for j in range(s):
+    star_bottom = -1
+    land_top = r
+    for i in range(r):
+        if m[i][j] == 'X':
+            star_bottom = i
+        if m[i][j] == '#':
+            land_top = i
             break
-    for y in range(0, R-1):
-        if (p[y][x] == '#'):
-            didx = y
-            break
-    if (uidx == -1):
+    if star_bottom == -1:
         continue
-    gap = min(abs(uidx-didx), gap)
-    uuidx = max(uuidx, uidx)
-gap -= 1
+    gap = min(gap, land_top - star_bottom - 1)
+    star_bottoms[j] = star_bottom
+    bottom = max(bottom, star_bottom)
+for j in range(s):
+    if star_bottoms[j] == -1:
+        continue
+    for i in range(star_bottoms[j], -1, -1):
+        m[i+gap][j] = m[i][j]
+    for i in range(gap):
+        m[i][j] = '.'
 
-for y in range(uuidx, -1, -1):
-    for x in range(S):
-        if(p[y+gap][x] !='#'):
-            p[y+gap][x] = p[y][x]
-
-for y in range(gap):
-    for x in range(S):
-        if(p[y][x] == 'X'):
-            p[y][x] = '.'
-
-for a in p:
-    for b in a:
-        print(b,end='')
-    print()
+print(*[''.join(m[i]) for i in range(r)], sep='\n')
