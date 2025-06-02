@@ -33,7 +33,7 @@
 
 | 주차 | 날짜 | 문제 유형 | 문제 |
 | --- | --- | --- | --- |
-| Week 5 | 2025/05/20 ~ 2025/05/27 | dfs,bfs | <p align=left> 1️⃣ [DFS와 BFS](https://www.acmicpc.net/problem/1260) <br> 2️⃣ [음식물 피하기](https://www.acmicpc.net/problem/1743) <br> 3️⃣ [바이러스](https://www.acmicpc.net/problem/2606) <br> 4️⃣ [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)
+| Week 6 | 2025/05/27 ~ 2025/06/02 | dfs,bfs 2 | <p align=left> 1️⃣ [촌수계산](https://www.acmicpc.net/problem/2644) <br> 2️⃣ [미로 탐색](https://www.acmicpc.net/problem/2178) <br> 3️⃣ [단지번호붙이기](https://www.acmicpc.net/problem/2667) <br> 4️⃣ [안전 영역](https://www.acmicpc.net/problem/2468)
 </p>
 
 <br />
@@ -44,13 +44,13 @@
 
 <table><tr>         
 <td align="center" width="140px" height="200px"><a href="https://github.com/sjoon22"><img src="https://avatars.githubusercontent.com/u/160305407?v=4?s=100" width="140px;" alt=""/>         <br /><sub><b>sjoon22</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/4"/></sub></a><br /></td>
-<td align="center" width="140px" height="200px"><a href="https://github.com/qorjiwon"><img src="https://avatars.githubusercontent.com/u/82700743?v=4?s=100" width="140px;" alt=""/>         <br /><sub><b>qorjiwon</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/17"/></sub></a><br /></td>
-<td align="center" width="140px" height="200px"><a href="https://github.com/mingmingseok"><img src="https://avatars.githubusercontent.com/u/145955083?v=4?s=100" width="140px;" alt=""/>         <br /><sub><b>mingmingseok</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/13"/></sub></a><br /></td>
-<td align="center" width="140px" height="200px"><a href="https://github.com/gaeunji"><img src="https://avatars.githubusercontent.com/u/158152252?v=4?s=100" width="140px;" alt=""/>         <br /><sub><b>gaeunji</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/11"/></sub></a><br /></td>
-<td align="center" width="140px" height="200px"><a href="https://github.com/reewon"><img src="https://avatars.githubusercontent.com/u/85295944?v=4?s=100" width="140px;" alt=""/>         <br /><sub><b>reewon</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/15"/></sub></a><br /></td>
+<td align="center" width="140px" height="200px"><a href="https://github.com/qorjiwon"><img src="https://avatars.githubusercontent.com/u/82700743?v=4?s=100" width="140px;" alt=""/>         <br /><sub><b>qorjiwon</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/21"/></sub></a><br /></td>
+<td align="center" width="140px" height="200px"><a href="https://github.com/mingmingseok"><img src="https://avatars.githubusercontent.com/u/145955083?v=4?s=100" width="140px;" alt=""/>         <br /><sub><b>mingmingseok</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/17"/></sub></a><br /></td>
+<td align="center" width="140px" height="200px"><a href="https://github.com/gaeunji"><img src="https://avatars.githubusercontent.com/u/158152252?v=4?s=100" width="140px;" alt=""/>         <br /><sub><b>gaeunji</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/12"/></sub></a><br /></td>
+<td align="center" width="140px" height="200px"><a href="https://github.com/reewon"><img src="https://avatars.githubusercontent.com/u/85295944?v=4?s=100" width="140px;" alt=""/>         <br /><sub><b>reewon</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/19"/></sub></a><br /></td>
 </tr><tr>         
 <td align="center" width="140px" height="200px"><a href="https://github.com/DoJiSeon"><img src="https://avatars.githubusercontent.com/u/66786183?v=4?s=100" width="140px;" alt=""/>         <br /><sub><b>DoJiSeon</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/12"/></sub></a><br /></td>
-<td align="center" width="140px" height="200px"><a href="https://github.com/Sjaize"><img src="https://avatars.githubusercontent.com/u/194899453?v=4?s=100" width="140px;" alt=""/>         <br /><sub><b>Sjaize</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/15"/></sub></a><br /></td>
+<td align="center" width="140px" height="200px"><a href="https://github.com/Sjaize"><img src="https://avatars.githubusercontent.com/u/194899453?v=4?s=100" width="140px;" alt=""/>         <br /><sub><b>Sjaize</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/16"/></sub></a><br /></td>
 <td align="center" width="140px" height="200px"><a href="https://github.com/yunchan-park"><img src="https://avatars.githubusercontent.com/u/194897454?v=4?s=100" width="140px;" alt=""/>         <br /><sub><b>yunchan-park</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/7"/></sub></a><br /></td>
 <td align="center" width="140px" height="200px"><a href="https://github.com/jsshin8128"><img src="https://avatars.githubusercontent.com/u/187975806?v=4?s=100" width="140px;" alt=""/>         <br /><sub><b>jsshin8128</b><br><img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/4"/></sub></a><br /></td>
 </table><br />
